@@ -15,3 +15,4 @@ configured to show values in mg/dL. Selecting units is not done in the watch fac
 
 Time/date will be shown in a format recognized by the user. 
 
+![Screenshot of digital classic using Blose WearOS app](https://github.com/KajBjurman/BlosePublic/blob/main/watch-faces/classic-digital/screenshot_mmolL.png)

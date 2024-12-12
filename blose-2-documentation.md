@@ -18,6 +18,12 @@ been removed from Blose.
 Blose still has a tile, and can provide data to complications in watch faces that you download
 separately. 
 
+A watch face similar to the one that was part of the app has been published to Google play, and is available at:
+https://play.google.com/store/apps/details?id=com.silentavalanche.blosewatchface.digital.v2
+
+The source code for the watch face, and configuration instructions can be found here:
+https://github.com/KajBjurman/BlosePublic/blob/main/watch-faces/classic-digital/README.md
+
 Configuration of Blose has changed a lot since there no longer is a built in watch face.
 
 ## Initial setup

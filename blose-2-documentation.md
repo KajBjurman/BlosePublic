@@ -31,6 +31,14 @@ Configuration of Blose has changed a lot since there no longer is a built in wat
 Install Blose from Google play. Either through Google play on the watch, or by selecting
 the compatible watch as target when you try to install using Google play on another device. 
 
+## Upgrade from Blose v1, or Wear OS 3/4
+
+Watches that previsously had Wear OS 4, E.g Galaxy Watch 5, but now have been upgraded to 
+Wear OS 5 might have problems with running Blose v2. If so, goto watch settings, 
+applications, list of applications, scroll down to Blose and select it. 
+You will then see app permissions etc. Scroll down, and tap clear cache, and then clear data.
+You might be forced to login after that. 
+
 ### Dexcom
 
 Blose can use Dexcom Share as a data source, but Dexcom sensors aren't uploading glucose

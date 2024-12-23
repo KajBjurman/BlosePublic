@@ -7,6 +7,30 @@ view current Glucose value on the watch, from a Dexcom or Libre sensor.
 
 Blose is developed and maintained by Kaj Bjurman.
 
+
+## Downloading and installing
+
+Blose app is available from Google play, 
+https://play.google.com/store/apps/details?id=com.silentavalanche.blose
+
+Select the watch as target in Google play, in order to install it to the watch. Blose doesn't run
+anything on the Phone, so Google play will say something like "Not compatible with your device" if you
+have the phone as target. Blose only runs on watches with Wear OS v3 or later. 
+
+
+### Note about Pixel watches
+
+Wear OS 5 on Pixel watches contains a bug related to scheduling permissions. Blose is affected
+by that bug. I can't fix the issue, it must be gixed by Google. They are aware
+of the bug:
+
+https://issuetracker.google.com/issues/379269841
+https://issuetracker.google.com/issues/365493102
+
+Affected users should try another app that supports Wear OS, and which can use
+scheduling on a phone, E.g GlucoDataHandler. 
+
+
 ## Major changes
 
 Version 2 of Blose requires at least Wear OS version 5.
@@ -26,10 +50,12 @@ https://github.com/KajBjurman/BlosePublic/blob/main/watch-faces/classic-digital/
 
 Configuration of Blose has changed a lot since there no longer is a built in watch face.
 
+
 ## Initial setup
 
 Install Blose from Google play. Either through Google play on the watch, or by selecting
 the compatible watch as target when you try to install using Google play on another device. 
+
 
 ## Upgrade from Blose v1, or Wear OS 3/4
 
@@ -38,6 +64,7 @@ Wear OS 5 might have problems with running Blose v2. If so, goto watch settings,
 applications, list of applications, scroll down to Blose and select it. 
 You will then see app permissions etc. Scroll down, and tap clear cache, and then clear data.
 You might be forced to login after that. 
+
 
 ### Dexcom
 
@@ -56,6 +83,7 @@ Perform the following steps, if you don't already have followers.
   follower.
 * Make sure that the follower can see current Glucose, and graph. 
 
+
 ### Configure Blose
 
 #### Add user
@@ -71,6 +99,7 @@ Perform the following steps, if you don't already have followers.
 * Select region, if needed
 * Click verify
 
+
 #### Remaining configuration
 
 All other configuration is optional. Configurations can be changed at any time, and the 
@@ -79,14 +108,17 @@ and scroll down to configuration.
 
 You can reach different sections of configuration by swiping sideways in the configuration dialog.
 
+
 ##### Sections
 
 NOTE! Changing a configuration value can take up to 5 minutes before it gets applied to 
 complications, and the tile. 
 
+
 **Units**
 
 * Select if mmol/L or mg/dL should be shown. 
+
 
 **Glucose target**
 
@@ -94,17 +126,21 @@ complications, and the tile.
   Target range can affect visuals, in e.g the graph, but is also used when
   performing "in range" calculations. 
 
+
 **Critical alarm**
 
 * Specify if you want to be notified with a vibration when getting critically low
+
 
 **Low alarm**
 
 * Specify if you want to be notified with a vibration when getting low
 
+
 **High alarm**
 
 * Specify if you want to be notified with a vibration when getting high
+
 
 **Actions**
 
@@ -112,6 +148,7 @@ complications, and the tile.
   I do e.g have the graph complication shown, and the glucose value shown.
   Taping on the graph starts the regular statistics view, but I have configured
   a glucose value tap to show the raw data view. 
+
 
 **Graph**
 
